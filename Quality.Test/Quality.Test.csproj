@@ -167,6 +167,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="repositories\countriesRepository.cs" />
+    <Compile Include="repositories\authorRepository.cs" />
+    <Compile Include="repositories\bookRepository.cs" />
+    <Compile Include="repositories\iLibrary.cs" />
     <Compile Include="webApi\AuthorsController.cs" />
     <Compile Include="webApi\CountriesController.cs" />
     <Compile Include="webApi\LibraryController.cs" />
