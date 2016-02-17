@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="LibraryEntities-Web.config Connection String" description="LibraryEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/bd.libraryBd.csdl|res://*/bd.libraryBd.ssdl|res://*/bd.libraryBd.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=192.168.0.14;initial catalog=Library;user id=sa;password=Hefesoft1234!;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\Users\\yamile-ruiz\\Documents\\Visual\ Studio\ 2015\\Projects\\Quality\.Test\\Quality\.Test\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LibraryEntities']/@connectionString" />
+  </parameter>
+</parameters>
